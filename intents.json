@@ -1,0 +1,244 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hey",
+                "hello",
+                "is anyone there?","hellooooo","hiii"
+            ],
+            "responses": [
+                "hey",
+                "hi",
+                "hello",
+                "heyyy",
+                "hi, how can I help you?"
+            ]
+        },
+        {
+            "tag":"basic",
+            "patterns":["hi,how are you?","how are you?"],
+            "responses":["i am fine , by the way you can ask me any queries related to the food delivery application"]
+        },
+        {
+            "tag":"fine",
+            "patterns":["i am fine,","fine","yes, i am fine bro"],
+            "responses":["glad to hear it, so you can ask me any help related to the food delivery "]
+        },
+        {
+            "tag":"food",
+            "patterns":["what is your favourite food","favourite food of yours?","favourite food","what's you favourite food"],
+            "responses":["i dont know your favourite food by mine is chicken biryani...order it using our food delivery "]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "thank you",
+                "goodbye",
+                "thanks",
+                "bye",
+                "see you later",
+                "thanks for your help",
+                "byeeee"
+            ],
+            "responses": [
+                "sure, text me if you need any help",
+                "bye, see you later",
+                "byeee come back again",
+                "text me if you need any help"
+            ]
+        },
+        {
+            "tag": "cusine type",
+            "patterns": [
+                "what are the foods available",
+                "what type of food is this",
+                "is my food vegan?",
+                "what type of food is available",
+                "what are the foods available?","what food is there?","food?","can you suggest me any food?","i want to order food"
+            ],
+            "responses": [
+                "italian, indian,continental,dhabha,pizza,burger,vegan an other dishes",
+                "parotta,briyani,pizza,burger,variety rice and many other dishes available",
+                "pure veg or non veg?"
+            ]
+        },
+        {
+            "tag":"no",
+            "patterns":["no","i can't","not","not okay"],
+            "responses":["sorry sir,i will try my best to provide you best results, ask me any other help regarding this application...thank you!!"]
+
+        },
+        {
+            "tag":"non-veg",
+            "patterns":[
+                "chicken",
+                "non veg",
+                "fish",
+                "mutton",
+                "chicken briyani",
+                "mutton briyani",
+                "non vegetarian"
+            ],
+            "responses":[
+                "we would suggest chicken briyani,fish kuzhambu,mutton chukka,chicken 65,chicken tandoori adn many other dishes you would like order it using the app...thank you"
+
+            ]
+        },
+        { "tag":"veg",
+        "patterns":["vegetarian",
+        "veg",
+        "curd rice",
+        "sambar rice",
+        "sambar",
+        "rice",
+        "paneer","mushroom"
+         ],
+        "responses":[ 
+            "we would suggest sambhar rice,curd rice, paneer tikka,paneer butter masala,mushroom gravy and many other dishes order it using the application....thank you"
+
+        ]
+
+        },
+        {
+            "tag":"ok",
+            "patterns":["ok","yes","done","okay"],
+            "responses":["do you need any other help?","ask me if you need any other help"]
+
+        },
+        { "tag":"continental",
+        "patterns":["only continental",
+        "continental please",
+        "continental foods",
+        "continental","italian","italian food","italian dishes","continental dishes",
+        "provide me best continental food",
+        "i like to eat continental dishes","i need continetnal food"
+     ],
+     "responses":[ "order in restaurants like mcd,kfc,locofeast,BISTRO,italian delight as they provide better continental and italian dishes.order it using the application thank you!!!"]
+
+
+        },
+        { "tag":"indian",
+        "patterns":["indian food","indian","dhabha","indian dishes","dhabha style","dhabha food"],
+        "responses":["we would suggest you A2B,Pind,dhabha makkani are the highly rated indian food restaurants kindly order through our application thank you!!"]
+
+
+        },
+        { "tag":"pizza",
+        "patterns":["i like to eat pizza",
+    "pizza?","i like pizza","i like to order pizza","provide me best restaurants for pizza"],
+    "responses":["as you wish domino's,pizza hut,oven fresh and oven story are the highly rated restaurants suggested for you to order pizzas. order it using our application thank you!!!"]
+        },
+        { "tag":"burger",
+        "patterns":["burger","burger?","i like to eat burger","burgers please","provide best restaurant for burger please"],
+        "responses":["as you wish MCD,burger king ,KFC are te top rated burger restaurants. order it using our application thank you!!!"]
+
+        },
+        { "tag":"vegan",
+        "patterns":["i am a vegan","i want vegan restaurants","i need vegan type of foods","vegan food","vegan","what vegan food is avilable","only vegan foods"],
+        "responses":["The vegan foods are available but we dont have separate restaurants for that ...sorry"]
+
+        },
+        {
+            "tag":"other_dishes",
+            "patterns":["other dishes","suggest me different dishes","some other dishes"],
+            "responses":["i cant suggest you dishes instead i will recommend some hotels you might like cholan mess,amman mess,rasavard,thalapkatti,A2B,pind,BBQ,samco,zaitoon,etc. these are the higly rated restaurants that are available kindly order using our application thank you!!"]
+
+        },
+    {
+        "tag":"biriyani",
+        "patterns":["biriyani","chicken briyani","mutton briyani","i would like to eat biriyani","suggest me best hotel for biriyani"],
+        "responses":["buhari,star,cholan mess,thalapakatti,samco,zaitoon are the highly rated biriyani restaurants. order it using our application thank you!!!"]
+
+    },
+
+    {
+        "tag":"parotta",
+        "patterns":["parotta?","i would like to eat parotta","i like parotta"],
+        "responses":["bhai kadai,zaitoon,cholan mess,madurai bun parotta are the highly rated parotta restaurants use our application to order the food thank you!!!!"]
+
+    },
+    {
+        "tag":"fish",
+        "patterns":["fish","fish kuzhambu","fish curry","fish fry","i would like to eat fish"],
+        "responses":["kumarakon,amman mess,poluchcha meen,thoondil are the highly rated restaurant for fish order it using our application thank you!!!"]
+
+
+    },
+        {
+            "tag": "order_tracking",
+            "patterns": [
+                "where is my order?",
+                "when will my order dispatch?",
+                "at what time will I receive my order?",
+                "when will I receive my order",
+                "where is my food?","i want to track my order","can you track my order?"
+            ],
+            "responses": [
+                "your order is on the way",
+                "you will receive your order soon",
+                "your order is already dispatched",
+                "your order will be dispatched soon"
+            ]
+        },
+        {
+            "tag": "payment",
+            "patterns": [
+                "can I pay through online?",
+                "I can only pay through cash",
+                "payment?","how can i pay?","how to pay?","what is the payment procedure?"
+            ],
+            "responses": [
+                "sure, you can pay through any mode of payment",
+                "yes, we accept any kind of payment procedure until it's monopoly money...lol",
+                "yes, we accept COD and online payment also"
+            ]
+        },
+        {
+            "tag": "refund",
+            "patterns": [
+                "I want my money back",
+                "refund my money",
+                "I want my refund",
+                "when will I get my money back",
+                "where is my money?",
+                "refund?","when will i get my refund?","now, i need my refund","refund my money please","cancel my order and refund my money"
+            ],
+            "responses": [
+                "sure, we will send your money back within 2-3 days",
+                "sure, I will refund your money",
+                "your refund money is being processed"
+            ]
+        },
+        
+        {
+            "tag":"BASICS",
+            "patterns":["what are you doing?","what doing?"],
+            "responses":["my work is to provide you queries related to food delivery "]
+        },
+        {
+            "tag":"celebrities",
+            "patterns":["do you know vijay","do you know dhoni","vijay","dhoni","ms dhoni","rajini","do you know rajini","do you know?","thalapathy","thala","aandavar","kamal","pushpa"],
+            "responses":["yes i know him he is my idol he used to order in our application everytime!!"]
+
+        },
+        {
+            "tag":"refunding",
+            "patterns":["how to refund?","i dont know how to make refund "],
+            "responses":["its very simple, just text me refund the money ,refund will start processing if you have ...thank you!!"]
+        },
+        {
+            "tag":"order",
+            "patterns":["how to order food?","how to order?","can i order using the chatbot itself?"],
+            "responses":["no, you cant order food through the chatbot but I can suggest you the restaurants to order best food based on your choice like indian,continental,italian,etc. "]
+        },
+        {
+            "tag":"cancel",
+            "patterns":["cancel my order","i want to cancel my order","cancel order"],
+            "responses":["sure i will cancel your order but contact the delivery person if the food is dispatched"]
+        }
+        
+    
+    ]
+}
